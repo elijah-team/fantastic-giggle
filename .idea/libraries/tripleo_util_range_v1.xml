@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="tripleo.util.range.v1" type="repository">
+    <properties maven-id="tripleo.util.range:range-v1:0.0.3b" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/range-v1-0.0.3b.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/org.eclipse.jdt.annotation-2.2.200.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/annotations-16.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/range-v1-0.0.3b-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/org.eclipse.jdt.annotation-2.2.200-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/annotations-16.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
