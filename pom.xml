@@ -1,5 +1,6 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>tripleo.elijah</groupId>
     <artifactId>elijah-fantastic-giggle</artifactId>
@@ -9,7 +10,7 @@
     <url>http://github.com/elijah-team/fantastic-giggle/</url>
     <properties>
 
- <java.version>17</java.version>
+        <java.version>17</java.version>
 
 
         <maven.compiler.source>17</maven.compiler.source>
@@ -71,12 +72,12 @@
             <version>${jdeferred.version}</version>
         </dependency>
 
-            <dependency>
-                <groupId>org.mockito</groupId>
-                <artifactId>mockito-core</artifactId>
-                <version>5.2.0</version>
-                <scope>test</scope>
-            </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>5.2.0</version>
+            <scope>test</scope>
+        </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.eclipse.jdt/org.eclipse.jdt.annotation -->
         <dependency>
@@ -150,6 +151,14 @@
             <url>https://gitlab.com/api/v4/projects/21223510/packages/maven</url>
         </repository>
     </repositories>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub OWNER Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/elijah-team/fantastic-giggle</url>
+        </repository>
+    </distributionManagement>
 
     <build>
         <plugins>
@@ -226,4 +235,3 @@
         </plugins>
     </reporting>
 </project>
-
