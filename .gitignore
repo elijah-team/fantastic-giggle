@@ -5,7 +5,7 @@ bin/
 eljc*out
 out/
 target/
-output/
+/output/
 target-/
 COMP*/
 .idea/workspace.xml
